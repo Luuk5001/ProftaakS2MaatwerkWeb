@@ -481,6 +481,16 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="T:ProftaakS2MaatwerkWeb.Controllers.ClassifierController">
+            <summary>
+            Handles API requests
+            </summary>
+        </member>
+        <member name="M:ProftaakS2MaatwerkWeb.Controllers.ClassifierController.Get">
+            <summary>
+            Get array of possible emotions
+            </summary>
+        </member>
         <member name="M:ProftaakS2MaatwerkWeb.Controllers.ClassifierController.Post">
             <summary>
             Post one image file to get a response from the classifier
