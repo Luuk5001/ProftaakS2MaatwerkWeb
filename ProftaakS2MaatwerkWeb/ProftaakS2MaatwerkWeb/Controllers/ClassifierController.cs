@@ -55,6 +55,20 @@ namespace ProftaakS2MaatwerkWeb.Controllers
                 try
                 {
                     httpPostedFile.SaveAs(fileSavePath);
+
+                    //Hier komt de classifier
+
+
+
+
+
+
+
+
+
+
+
+
                     return new Result(15, Emotions.Happiness.ToString());
                 }
                 catch(Exception e)
